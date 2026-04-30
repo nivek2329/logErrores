@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Inventario
-comment1.params=p
-comment1.target=void\ agregarProducto(Producto)
-comment2.params=id
-comment2.target=Producto\ buscarProducto(int)
-comment3.params=id
-comment3.target=void\ eliminarProducto(int)
-numComments=4
