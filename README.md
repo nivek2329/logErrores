@@ -19,8 +19,8 @@ Ejercicio práctico de implementación de un inventario de productos en Java, co
 
 El sistema gestiona un inventario de productos mediante tres operaciones básicas: agregar, buscar y eliminar. El requisito principal del ejercicio, más allá del CRUD, es la **separación del registro de errores en dos archivos de log**:
 
-- `expected_errors_log.log` — errores de negocio esperados (excepciones checked del dominio).
-- `inventario_log.log` — errores inesperados del programador (fallos no anticipados) y operaciones exitosas.
+- `expected_errors_log.log` : errores de negocio esperados (excepciones checked del dominio).
+- `inventario_log.log` : errores inesperados del programador (fallos no anticipados) y operaciones exitosas.
 
 Esta separación permite que el equipo de soporte y el equipo de desarrollo consulten logs distintos sin mezclar información.
 
@@ -62,10 +62,10 @@ La configuración de los `FileHandler` se hace en un bloque `static` que se ejec
 
 Clase de prueba que construye un `Inventario`, ejecuta los cuatro escenarios principales y captura las excepciones para mostrar su comportamiento:
 
-1. Buscar un producto que **sí existe** → éxito.
-2. Buscar un producto que **no existe** → `ProductNotFoundException`.
-3. Eliminar un producto que **existe** → éxito.
-4. Eliminar de un inventario **vacío** → `EmptyInventoryException`.
+1. Buscar un producto que **sí existe** : éxito.
+2. Buscar un producto que **no existe** : `ProductNotFoundException`.
+3. Eliminar un producto que **existe** : éxito.
+4. Eliminar de un inventario **vacío** : `EmptyInventoryException`.
 
 ---
 
@@ -73,7 +73,7 @@ Clase de prueba que construye un `Inventario`, ejecuta los cuatro escenarios pri
 
 | Colección | Clase | Tipo | Justificación |
 |-----------|-------|------|---------------|
-| `productos` | `Inventario` | `HashMap<Integer, Producto>` | Las operaciones `buscarProducto` y `eliminarProducto` acceden por `id` (clave entera). `HashMap` ofrece `containsKey` y `get` en **O(1)** promedio, lo que es óptimo para un inventario que puede crecer. No se requiere orden entre productos, por lo que no hay motivo para usar un `TreeMap` que añadiría costo O(log n) en cada operación. La clave es el `id` del producto, que es único por diseño. |
+| `productos` | `Inventario` | `HashMap<Integer, Producto>` | Las operaciones `buscarProducto` y `eliminarProducto` acceden por `id` (clave entera). `HashMap` ofrece `containsKey` y `get`, lo que es óptimo para un inventario que puede crecer. No se requiere orden entre productos, por lo que no hay motivo para usar un `TreeMap`. La clave es el `id` del producto, que es único por diseño. |
 
 ---
 
