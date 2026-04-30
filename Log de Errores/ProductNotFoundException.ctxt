@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ProductNotFoundException
+comment0.text=\r\n\ @return\ excepci\u00F3n\ que\ indica\ que\ un\ producto\ no\ fue\ encontrado\r\n
+comment1.params=id
+comment1.target=ProductNotFoundException(int)
+comment1.text=\r\n\ @param\ id\ identificador\ del\ producto\ que\ no\ fue\ encontrado\r\n\ @return\ excepci\u00F3n\ con\ el\ mensaje\ indicando\ que\ el\ producto\ no\ existe\r\n
+numComments=2

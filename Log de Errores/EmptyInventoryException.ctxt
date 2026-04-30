@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EmptyInventoryException
+comment0.text=\r\n\ @return\ excepci\u00F3n\ que\ representa\ la\ condici\u00F3n\ de\ inventario\ vac\u00EDo\r\n
+comment1.params=
+comment1.target=EmptyInventoryException()
+comment1.text=\r\n\ @return\ excepci\u00F3n\ con\ el\ mensaje\ indicando\ que\ el\ inventario\ est\u00E1\ vac\u00EDo\r\n
+numComments=2

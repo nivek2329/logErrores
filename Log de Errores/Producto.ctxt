@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Producto
+comment0.text=\r\n\ @return\ clase\ que\ representa\ un\ producto\ del\ inventario\r\n
+comment1.params=id\ nombre\ cantidad
+comment1.target=Producto(int,\ java.lang.String,\ int)
+comment1.text=\r\n\ @param\ id\ identificador\ del\ producto\r\n\ @param\ nombre\ nombre\ del\ producto\r\n\ @param\ cantidad\ cantidad\ disponible\ del\ producto\r\n\ @return\ objeto\ producto\ inicializado\r\n
+comment2.params=
+comment2.target=int\ getId()
+comment2.text=\r\n\ @return\ identificador\ del\ producto\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment3.text=\r\n\ @return\ identificador\ del\ producto\r\n
+comment4.params=
+comment4.target=int\ getCantidad()
+comment4.text=\r\n\ @return\ cantidad\ disponible\ del\ producto\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ @return\ representaci\u00F3n\ en\ texto\ del\ producto\r\n
+numComments=6

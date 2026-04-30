@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Inventario
+comment0.text=\r\n\ @return\ clase\ que\ gestiona\ los\ productos\ de\ un\ inventario\r\n
+comment1.params=p
+comment1.target=void\ agregarProducto(Producto)
+comment1.text=\r\n\ @param\ p\ producto\ que\ se\ va\ a\ agregar\ al\ inventario\r\n\ @return\ no\ retorna\ ning\u00FAn\ valor\r\n
+comment2.params=id
+comment2.target=Producto\ buscarProducto(int)
+comment2.text=\r\n\ @param\ id\ identificador\ del\ producto\ a\ buscar\r\n\ @return\ producto\ encontrado\ con\ el\ id\ especificado\r\n
+comment3.params=id
+comment3.target=void\ eliminarProducto(int)
+comment3.text=\r\n\ @param\ id\ identificador\ del\ producto\ a\ eliminar\r\n\ @return\ no\ retorna\ ning\u00FAn\ valor\r\n
+numComments=4
